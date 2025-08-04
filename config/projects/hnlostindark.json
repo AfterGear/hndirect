@@ -1,0 +1,29 @@
+{
+    "image": "",
+    "title": "Hello Neighbor: Lost in the Dark",
+    "genre": "",
+    "description":  "Hello Neighbor: Lost In The Dark is a Hello Neighbor fan game that tries to improve the well-known Hello Neighbor game.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "",
+    "developerdata":
+    {
+        "developerteamname": "DenixMar",
+        "developerlogo": "https://m.gjcdn.net/user-avatar/200/6848612-kigkspbu-v4.webp",
+        "credits": [
+            "DenixMar"
+        ]
+    },
+    "screenshots": 
+    [
+        "https://m.gjcdn.net/game-screenshot/700/40428538-rxnxzkh5-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/40428539-kks85dgy-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/40880615-fmwuec8v-v4.webp"
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": "https://gamejolt.com/games/HNLD/825615"
+        }
+    ]
+}

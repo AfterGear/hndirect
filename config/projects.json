@@ -1,0 +1,28 @@
+{
+    "projects": [
+        [
+            "guestecho.json",
+            "dbn.json"
+        ],
+        [
+            "placeholders/hndeeptruth.json",
+            "placeholders/rbnevermore.json"
+        ],
+        [
+            "placeholders/theodorelife.json",
+            "hnlostindark.json"
+        ],
+        [
+            "tlstop.json",
+            "hnalt.json"
+        ],
+        [
+            "hnraven.json",
+            "hnreckoning.json"
+        ],
+        [
+            "placeholders/hnintomind.json",
+            "hnhiddenspirits.json"
+        ]
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "image": "hnhiddenspirits/hnhiddenspirits.webp",
+    "title": "Hello Neighbor: Hidden Spirits",
+    "genre": "horror, action, puzzle, strategy, altgame",
+    "description":  "Hello Neighbor 2: The Missing Raven brings the lost, unreleased version of the real game stage, \"Alpha 2\", to life in its style. In this game you play as Quentin, a journalist investigating a series of missing persons cases in the open world of Raven Brooks. Explore the mysterious town as you interact with a host of different characters and take on the infamous Mr. Peterson, a suspect who has been hiding from police. Everyone has their own secrets and it's your job to figure out how everything connects.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "9xto7vc9",
+    "developerdata":
+    {
+        "developerteamname": "OwenCampos",
+        "developerlogo": "https://m.gjcdn.net/user-avatar/200/3604031-crop420_0_1500_1080-yuntbm44-v4.webp",
+        "credits": [
+            "OwenCampos",
+            "TheCrowinator",
+            "partnerplaya",
+            "NateEMG"
+        ]
+    },
+    "screenshots": 
+    [
+        "https://m.gjcdn.net/game-screenshot/600/27852253-zenjabiw-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/27852255-9a4usnx3-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/27852247-rau3ww54-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/27852246-mznmtfrm-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/27852539-erjyem89-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/27852260-j5snz7ws-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/27852250-ddfu5xvu-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/28406764-wj83yfdt-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/27852243-mrcitwx3-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/27852258-upastcjr-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/30293202-6dzwxerw-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/30293087-4rgykj9j-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/30293171-afztbrnt-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/30296209-fxajpszz-v4.webp"
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": "https://gamejolt.com/games/hello-neighbor-hidden-spirits/443632"
+        },
+        { 
+            "title": "YouTube", 
+            "link": "https://www.youtube.com/@OwenCampos"
+        }
+    ]
+}

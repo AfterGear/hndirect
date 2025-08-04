@@ -1,0 +1,35 @@
+{
+    "image": "hnkidnap/hnkidnap.webp",
+    "title": "Hello Neighbor 2: The Mysterious Kidnappings",
+    "genre": "horror, puzzle, strategy, action, adventure",
+    "description":  "Hello Neighbor 2: The Mysterious Kidnappings is a reimagined version of the E3, Alpha 2 And HN2, Following the Same Gameplay Loop, You Can Expect In Those Games. Play as an investigative journalist that is in a sketchy cult, Where your Investigation Board and Your items are your dearest Friends, The AI-driven characters are Powered With a Self Learning AI That Learns From your past mistakes and adapts to them",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "",
+    "developerdata":
+    {
+        "developerteamname": "PhantomYT",
+        "developerlogo": "https://m.gjcdn.net/user-avatar/200/8065485-uns8yvj6-v4.webp",
+        "credits": [
+            "TSB",
+            "FORRT9513",
+            "Mr_Chris_PL"
+        ]
+    },
+    "screenshots": 
+    [
+        "https://m.gjcdn.net/game-screenshot/600/35617918-hdu7vwm7-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/35617919-jw2gtyv8-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/35617920-m6xeizwa-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/35617921-4ye9gyqm-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/35617935-guvfxrfx-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/35617967-ifbw2hzq-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/600/35617998-behmfy8h-v4.webp"
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": "https://gamejolt.com/games/HN2TMK/869805"
+        }
+    ]
+}

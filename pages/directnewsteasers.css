@@ -1,0 +1,59 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-weight: 550;
+    color: darkgray;
+}
+
+.newsshelve {
+    margin-top: 2vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    visibility: hidden;
+}
+
+#counter {
+    padding: 0;
+    margin: 0;
+}
+
+#title, #description {
+    padding: 10px;
+}
+
+#newschangebtn1, #newschangebtn2 {
+    margin: 20px;
+    height: 128px;
+    width: 64px;
+    cursor: pointer;
+}
+
+#newscontent {
+    width: 60vw;
+    height: 35vw;
+}
+
+#content #title {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.maincontent {
+    width: 60vw;
+    height: 35vw;
+    border-radius: 20px;
+}
+
+#description {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

@@ -1,0 +1,36 @@
+{
+    "image": "",
+    "title": "Hello Neighbor: RTX",
+    "genre": "",
+    "description":  "Hello Neighbor RTX will initially feature a remake of Alpha 2, including the following: -RTX for realistic reflections, shadows, and lighting. -A completely reworked art style that preserves the spirit of the original while enhancing detail and vibrancy. Improved game aspects: -A more advanced neighbor AI that is even craftier and more cunning. -Enhanced physics and animation, ensuring immersive gameplay. -A new system for interacting with the environment and objects. Expanded story: -A deep narrative, referencing the old canon, that unveils secrets about the neighbor and his house. Redesigned levels: -Enlarged exploration areas with new mysteries and puzzles. -Added unique gameplay mechanics to expand players’ possibilities. Many delightful additions: -Unique gameplay elements not found in the original version. Furthermore, there’s the possibility of a full rework of the original game in this new style and gameplay after the remake. The release is expected around fall 2025.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "",
+    "developerdata":
+    {
+        "developerteamname": "OctaV1a",
+        "developerlogo": "https://m.gjcdn.net/user-avatar/200/9694289-nv4tu2py-v4.webp",
+        "credits": [
+            "OctaV1a"
+        ]
+    },
+    "screenshots": 
+    [
+        "https://m.gjcdn.net/game-screenshot/700/41822485-rvhteja4-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/41822484-ymq6prar-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/41822481-zpvpgrfu-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/41822480-3dm8j9xi-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/41291850-fs6aprtm-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/41518512-7vzaqrbw-v4.webp"
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": "https://gamejolt.com/games/Hello_Neighbor_RTX/983220"
+        },
+        {
+            "title": "YouTube",
+            "link": "https://www.youtube.com/channel/UCbxKqUjGgC2ztsf0MEXC_rQ"
+        }
+    ]
+}

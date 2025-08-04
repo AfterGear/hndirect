@@ -1,0 +1,38 @@
+{
+    "image": "hnraven/hnraven.webp",
+    "title": "Hello Neighbor 2: The Missing Raven",
+    "genre": "",
+    "description":  "Hello Neighbor 2: The Missing Raven brings the lost, unreleased version of the real game stage, \"Alpha 2\", to life in its style. In this game you play as Quentin, a journalist investigating a series of missing persons cases in the open world of Raven Brooks. Explore the mysterious town as you interact with a host of different characters and take on the infamous Mr. Peterson, a suspect who has been hiding from police. Everyone has their own secrets and it's your job to figure out how everything connects.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "",
+    "developerdata":
+    {
+        "developerteamname": "Blockified",
+        "developerlogo": "https://m.gjcdn.net/user-avatar/200/10590231-crop225_0_911_686-dwvwppvt-v4.webp",
+        "credits": [
+            "Blockified"
+        ]
+    },
+    "screenshots": 
+    [
+        "https://m.gjcdn.net/game-screenshot/800/40126710-f9xzsk2f-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/40349569-bvsfdc5g-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/40349564-pfcxf3a3-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/900/40126712-k3nxueqs-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/900/40126711-yeykxwgd-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/40348963-suupvygq-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/37807123-gfihuvve-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/36588394-h9ugeywh-v4.webp"
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": "https://gamejolt.com/games/themissingraven/923259"
+        },
+        { 
+            "title": "YouTube", 
+            "link": "https://www.youtube.com/@Blockified_"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "image": "dbn/dbn.webp",
+    "title": "Dead by Neighbor 2: Hello Neighbor Multiplayer Fangame",
+    "genre": "multiplayer, horror, platformer, puzzle, survival, sandbox, action",
+    "description":  "Dead by Neighbor 2 is a 4v1 asymmetrical horror game that takes players to the abandoned Golden Apple Amusement Park and the eerie town of Raven Brooks.\nIn DbN2, Mr. Peterson returns more dangerous than ever, with a new arsenal of deadly traps and items that he can strategically use.\nSneak through the eerie landscapes, solve puzzles, and evade Mr. Peterson, who is always stalking you. With randomly generated items and rooms, no two matches are alike—making the entire Golden Apple Amusement Park and Raven Brooks your unpredictable playground.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "w5hZkMH7",
+    "developerdata":
+    {
+        "developerteamname": "AfterGear",
+        "developerlogo": "https://m.gjcdn.net/user-avatar/200/2514405-crop168_59_568_459-a6cbq8ez-v4.webp",
+        "credits": [
+            "SufieWolf",
+            "Midul"
+        ]
+    },
+    "screenshots": 
+    [
+        "https://m.gjcdn.net/game-screenshot/800/31158634-a2ayiezt-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/37659466-ps2hrzab-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/37659533-g9vc8zfy-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/37659561-xbk8xafb-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/37659443-d2p8cviw-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/34228849-4nijax2j-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/34261467-ydfvxyqy-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/34228517-pwvbf49r-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/37659579-pmqzhpnk-v4.webp"
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": "https://gamejolt.com/games/DbN2-HN/881564"
+        },
+        { 
+            "title": "YouTube", 
+            "link": "https://www.youtube.com/@AfterGearStudio"
+        }
+    ]
+}

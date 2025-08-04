@@ -1,0 +1,31 @@
+{
+    "image": "",
+    "title": "Hello Neighbor: Prototype Revived",
+    "genre": "",
+    "description":  "",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "",
+    "developerdata":
+    {
+        "developerteamname": "",
+        "developerlogo": "",
+        "credits": [
+            ""
+        ]
+    },
+    "screenshots": 
+    [
+        
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": ""
+        },
+        {
+            "title": "YouTube",
+            "link": ""
+        }
+    ]
+}

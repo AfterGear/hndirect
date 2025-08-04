@@ -1,0 +1,237 @@
+body {
+    font-family: 'Haettenschweiler'; 
+    font-weight: 500; 
+    font-style: normal;
+    background-color: #1F7473;
+    background-image: url("images/GrayBackground.png");
+    background-size: 20% auto;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+
+#maintoppanel {
+    background-color: #1F7473;
+    background-image: url("images/BlueBackground.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    padding: 10px;
+    overflow: hidden;
+    animation: go 1.5s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+@keyframes go {
+    to {
+        height: 130px;
+    }
+}
+
+
+#toppanelendimage {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    overflow: visible;
+    top: 100%;
+    left: 0;
+    z-index: 1001;
+    animation: followtoppanel 1.5s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+@keyframes followtoppanel {
+    to {
+        top: 110px;
+    }
+}
+
+
+#directlogo {
+    display: flex;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: moveToCorner 1.7s ease-in-out forwards;
+    animation-delay: 2s;
+    cursor: pointer;
+}
+
+@keyframes moveToCorner {
+    0% {
+        top: 50%;
+        left: 50%;
+        width: 70%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        top: 10px;
+        left: 25px;
+        width: 360px;
+        transform: translate(0, 0);
+    }
+}
+
+
+#textunderlogo {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+
+    background-image: url("images/BorderText.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 70px;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+    margin: auto;
+
+    animation: moveDownAndFade 0.5s ease-in forwards;
+    animation-delay: 2s;
+}
+
+@keyframes moveDownAndFade {
+    0% {
+        opacity: 1;
+        top: 80%;
+    }
+
+    99% {
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 0;
+        top: 100%;
+        visibility: hidden;
+    }
+}
+
+
+#pagecontent {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 88vh;
+    width: 100%;
+    padding-top: 156px;
+    animation: followtoppanel_pagecontent 1.5s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+@keyframes followtoppanel_pagecontent {
+    0% {
+        top: 100%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+#content {
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+}
+
+
+#pagewindow {
+    display: flex;
+    position: absolute;
+    height: 88vh;
+    width: 100%;
+    border: 0;
+}
+
+
+#pagebuttonspanel {
+    opacity: 0;
+    z-index: 1002;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    animation: show 0.5s linear forwards;
+    animation-delay: 3s;
+}
+
+@keyframes show {
+    0% {
+       opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pagebutton {
+    color: white;
+    background-color: #EE6601;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Haettenschweiler';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    padding: 5px;
+    padding-bottom: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#mediabuttonspanel {
+    opacity: 0;
+    z-index: 1002;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+    top: 0;
+    right: 30px;
+    height: 100px;
+
+    animation: show 0.5s linear forwards;
+    animation-delay: 3s;
+}
+
+.mediabutton {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.mediabutton img {
+    width: 100px;
+    height: 100px;
+}

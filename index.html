@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>HN Direct</title>
+        <meta charset=UTF-8>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="robots" content="noindex, noarchive">
+        <meta name="format-detection" content="telephone=no">
+
+        <link href="fontsheet.css" rel="stylesheet">
+        <style>@import url("index.css");</style>
+    </head>
+    <body>
+        <!-- Main Top Panel -->
+        <div id="maintoppanel">
+            <!-- Top Logo Panel -->
+            <div>
+                <a href="pages/fanprojects.html" target="pagewindow"><img id="directlogo" src="images/HNDirectLogo.webp"></a>
+            </div>
+            
+            <!-- Page Buttons Panel -->
+            <div id="pagebuttonspanel">
+                <a href="pages/directnewsteasers.html" target="pagewindow"><button class="pagebutton" onclick="console.log('new teasers')">Direct News and Teasers</button></a>
+                <button class="pagebutton" onclick="console.log('reviews')" style="background-color: #121b35; color:#3a3a3a">HN Reviews</button>
+                <button class="pagebutton" onclick="console.log('tips tricks bugs')" style="background-color: #121b35; color:#3a3a3a">HN Tips & Tricks & Bugs</button>
+            </div>
+
+            <!-- Media Buttons Panel -->
+            <div id="mediabuttonspanel">
+                <a href="https://discord.gg/27Ujsfysgr" target=_blank><button class="mediabutton" onclick="console.log('discord')"><img src="images/LogoDiscordForHND.png"></button></a>
+                <a href="https://www.youtube.com/@Mega_M01" target=_blank><button class="mediabutton" onclick="console.log('youtube')"><img src="images/LogoYoutubeForHND.png"></button></a>
+                <a href="https://gamejolt.com/games/HN_Direct/961649" target=_blank><button class="mediabutton" onclick="console.log('gamejolt')"><img src="images/LogoGamejoitForHND.png"></button></a>
+            </div>
+
+            <!-- Text Under Logo -->
+            <div id="textunderlogo">
+                <p style="font-family: 'Haettenschweiler'; font-weight: 400; font-style: normal; font-size: 2.1vw; transform: translate(0, -8px);">
+                    Hello Neighbor Direct is HN fan showcase. This event is created to show unique
+                    HN related fan projects to the public and give a big or small boost to their creators.
+                    Think of it as a TinyBuild Connect!
+                </p>
+            </div>
+        </div>
+        <!-- Border between top panel and page content -->
+        <img id="toppanelendimage" src="images/BorderFabric.png">
+        <!-- Page Content -->
+        <div id="pagecontent">
+            <iframe id="pagewindow" name="pagewindow" src="pages/fanprojects.html"></iframe>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+{
+    "image": "hnalt/hnalt.webp",
+    "title": "Hello Neighbor 2: Alternative Reality",
+    "genre": "horror, adventure, strategy, action, survival, altgame, stealth, puzzle, sandbox",
+    "description":  "Hello Neighbor 2: Alternative Reality is a reimagined remastered version of Hello Neighbor 2. Following the core gameplay loop left over from the original developer logs. Play as an investigative journalist against a Bot-Controlled Neighbor in a sandbox environment, as you try to find out what secrets he is keeping from you.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "FXdxaSh6",
+    "developerdata":
+    {
+        "developerteamname": "HN: Alternative Reality Games",
+        "developerlogo": "https://m.gjcdn.net/user-avatar/200/3410038-enpndbda-v4.webp",
+        "credits": [
+            "NateEMG",
+            "jaythefrog71",
+            "HN: Alternative Reality Games"
+        ]
+    },
+    "screenshots": 
+    [
+        "https://m.gjcdn.net/game-screenshot/700/40960980-sadrw3kv-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/40544453-ycexpi4p-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/40544454-njjk6szp-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/40544455-nam3m8bn-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/40544456-grscqeyz-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/40544457-czzjrwki-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/700/40752907-mkx8huwp-v4.webp"
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": "https://gamejolt.com/games/HN2AR/893005"
+        },
+        { 
+            "title": "YouTube", 
+            "link": "https://www.youtube.com/@NateEMG"
+        }
+    ]
+}

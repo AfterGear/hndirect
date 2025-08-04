@@ -1,0 +1,30 @@
+{
+    "image": "guestecho/guestecho.webp",
+    "title": "Hello Guest: Echoes",
+    "genre": "horror, survival, fangame, puzzle, adventure",
+    "description":  "Hello Guest: Echoes is a fan-made prequel to the stealth puzzle game, Hello Guest. This game aims to tell a new tale that resides deep in the forest rather than the streets of Raven Brooks. It will shed light on mysteries surrounding. You, Quentin, are investigating the missing people of Crow Haven, a small forest town tucked into the mountains outside Raven Brooks.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "",
+    "developerdata":
+    {
+        "developerteamname": "Fuzz Fuzz Pink Sheep",
+        "developerlogo": "https://m.gjcdn.net/user-avatar/200/5941346-crop11_0_636_625-svcnk3xf-v4.webp",
+        "credits": [
+            "Fuzz Fuzz Pink Sheep"   
+        ]
+    },
+    "screenshots": 
+    [
+        "https://m.gjcdn.net/game-screenshot/800/36299701-rdwczpum-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/900/34368758-ctazbzcy-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/800/38615514-6cxmcdta-v4.webp",
+        "https://m.gjcdn.net/game-screenshot/900/36742595-astbtwyj-v4.webp"
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": "https://gamejolt.com/games/HGE/770226"
+        }
+    ]
+}

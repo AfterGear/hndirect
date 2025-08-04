@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>@import url("fanprojects.css");</style>
+        <script>
+            function createProjectWindow(data, dataFile, container) {
+                
+                // Main Div for contents
+                const maindiv = document.createElement("div");
+                maindiv.classList.add("projectwindowelements");
+
+                // Project Image
+                const projectimg = document.createElement("img");
+                projectimg.setAttribute("src", "../images/projects/" + data.image);
+
+                // Project Title
+                const projecttitle = document.createElement("p");
+                projecttitle.innerHTML = data.title;
+
+                // Append elements
+                maindiv.appendChild(projectimg);
+                maindiv.appendChild(projecttitle);
+                container.appendChild(maindiv);
+
+                // click 
+                maindiv.onclick = function() {
+                    window.open("./projectpage.html" + "?proj=" + dataFile, "pagewindow");
+                    console.log(data.title);
+                }
+            }
+
+            function useProjectsData(data) {
+                data.projects.forEach((projects, index) => {
+                    const con = document.createElement("div");
+                    con.classList.add("projectwindow");
+                    document.getElementById("grid").appendChild(con);
+                    projects.forEach((project, index) => {
+                        fetch('../config/projects/' + project).then(response => response.json())
+                        .then(projdata => createProjectWindow(projdata, project, con))
+                        .catch(error => console.error('Error loading JSON:', error));
+                    })
+                });
+            }
+
+            window.onload = function() {
+                fetch('../config/projects.json').then(response => response.json())
+                .then(data => useProjectsData(data))
+                .catch(error => console.error('Error loading JSON:', error));
+            }
+        </script>
+    </head>
+    <body>
+        <div id="fanprojimgs">
+            <img id="fanprojimg" src="../images/TextFanProject.png">
+            <img id="fanprojimgbesidecofeeimg" src="../images/CoffeIcon.png">
+        </div>
+        <hr id="overtablehr" color="black" size="6">
+        <div id="grid"></div>
+    </body>
+</html>

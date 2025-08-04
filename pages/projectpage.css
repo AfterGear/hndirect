@@ -1,0 +1,135 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    visibility: hidden;
+}
+
+#top {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#titlediv {
+    display: grid;
+    grid-auto-flow: column;
+    width: 700px;
+    height: max-content;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;  
+}
+
+#title {
+    width: 500px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#description {
+    color: darkgray;
+    font-size: 12px;
+    width: 500px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-weight: 570;
+}
+
+#devsect {
+    margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#devpicture {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+
+#screenshotdiv {
+    min-width: 25vw;
+    padding-right: 10vw;
+}
+
+#projscreens {
+    border: 1px solid white;
+    width: 100%;
+    cursor: pointer;
+}
+
+#gamejoltdiv {
+    width: 400px;
+    height: max-content;
+}
+
+#creds {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+#creds p {
+    margin: 0;
+    padding: 0;
+}
+
+#devscreds {
+    margin: 0;
+    padding-top: 10px;
+}
+
+#addinfo {
+    margin-bottom: 15px;
+}
+
+a:link {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cyan;
+}
+
+#fullscreenscreens {
+    z-index: 1001;
+    visibility: hidden;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#fullscreenscreensbg {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#fullscreen_screen {
+    z-index: 1002;
+    min-width: 75vw;
+    pointer-events: all;
+}
+
+.changescreenbtn {
+    z-index: 1002;
+    max-width: 5vw;
+    padding: 10px;
+    cursor: pointer;
+}

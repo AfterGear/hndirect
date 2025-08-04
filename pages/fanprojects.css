@@ -1,0 +1,97 @@
+#fanprojimgs {
+    display: flex;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%, 10px);
+}
+
+#fanprojimg {
+    width: 630px;
+    height: auto;
+}
+
+#fanprojimgbesidecofeeimg {
+    width: 100px;
+    height: 130px;
+}
+
+#overtablehr {
+    position: absolute;
+    margin-top: 170px;
+    width: 99.5vw;
+    left: 0;
+}
+
+table {
+    display: flex;
+    position: absolute;
+    color: white;
+    margin: auto;
+    margin-top: 180px;
+    padding-bottom: 100px;
+    border-top: 30px solid black;
+
+    left: 0;
+    width: 100%;
+}
+
+tbody {
+    width: 100%;
+}
+
+td {
+    border-bottom: 6px solid black;
+    text-align: center;
+}
+
+td + td {
+    border-left: 4px solid black;
+}
+
+#grid {
+    position: absolute;
+    display: grid;
+    text-align: center;
+    
+    margin-top: 180px;
+    width: 99.5vw;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    border-top: 30px solid black;
+    padding-top: 10px;
+}
+
+.projectwindow {
+    display: flex;
+    width: auto;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background-image: url("../images/FolderProject.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.623);
+}
+
+.projectwindowelements {
+    width: 50%;
+    margin-top: 3vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+.projectwindow p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9vw;
+}
+
+.projectwindow img {
+    border-radius: 10px;
+    width: 8.9vw;
+    height: auto;
+}

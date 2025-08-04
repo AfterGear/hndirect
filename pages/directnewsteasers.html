@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang=en>
+    <style>@import url("directnewsteasers.css");</style>
+    <body>
+        <script>
+            let nowSeen = 0;
+            let dataArr = [];
+
+            function next() {
+                nowSeen += 1;
+                open(dataArr[nowSeen]);
+            }
+
+            function back() {
+                nowSeen -= 1;
+                open(dataArr[nowSeen]);
+            }
+
+            function open(data) {
+                console.log(nowSeen);
+
+                const counter = document.getElementById("counter");
+                const title = document.getElementById("title");
+                const newscontent = document.getElementById("newscontent");
+                const description = document.getElementById("description");
+                const backbtn = document.getElementById("newschangebtn1");
+                const nextbtn = document.getElementById("newschangebtn2");
+
+                for (let i = 0; i < newscontent.childElementCount; i += 1) {
+                    newscontent.removeChild(newscontent.childNodes[i]);
+                }
+
+                counter.innerHTML = nowSeen + 1 + "/" + dataArr.length;
+                title.innerHTML = data.title;
+                description.innerHTML = data.description;
+
+                switch (data.type)
+                {
+                    case "img":
+                        const img = document.createElement("img");
+                        img.classList.add("maincontent");
+                        img.setAttribute("src", "../../sprites/news/" + data.contentimg);
+                        img.setAttribute("alt", data.contentimg);
+                        newscontent.appendChild(img);
+                        break;
+                    case "video":
+                        const p = document.createElement("p");
+                        p.innerHTML = "work in progress";
+                        newscontent.appendChild(p);
+                        break;
+                    case "ytlink":
+                        const iframe = document.createElement("iframe");
+                        iframe.classList.add("maincontent");
+                        iframe.setAttribute("src", data.contentytlink);
+                        iframe.setAttribute("allow", "accelerometer; clipboard-write; encrypted-media; gyroscope; web-share");
+                        iframe.setAttribute("referrerPolicy", "strict-origin-when-cross-origin");
+                        iframe.style.frameBorder = 0;
+                        newscontent.appendChild(iframe);
+                        break;
+                }
+
+                backbtn.style.visibility = nowSeen == 0 ? "hidden" : "visible";
+                nextbtn.style.visibility = nowSeen == dataArr.length - 1 ? "hidden" : "visible";
+                newscontent.parentElement.parentElement.style.visibility = "visible";
+            }
+
+            window.onload = async function() {
+                const response = await fetch('../../config/directnewsteasers.json');
+                const data = await response.json();
+                const fetchPromises = data.news.map(news => 
+                    fetch('../../config/directnewsteasers/' + news).then(response => response.json())
+                );
+                dataArr = await Promise.all(fetchPromises);
+                open(dataArr[0]);
+            }
+        </script>
+        <div class="newsshelve">
+            <img id="newschangebtn1" src="../../sprites/Logo_Arrow2.webp" alt=">" onclick="back()" style="transform:rotate(180deg);">
+            <div id="content">
+                <p id="counter">0/0</p>
+                <p id="title">Title</p>
+                <div id="newscontent"></div>
+                <p id="description">Description</p>
+            </div>
+            <img id="newschangebtn2" src="../../sprites/Logo_Arrow2.webp" onclick="next()" alt=">">
+        </div>
+    </body>
+</html>
