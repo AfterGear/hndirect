@@ -17,17 +17,17 @@
     },
     "screenshots": 
     [
-        
+        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/promotional-image",
+        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/welcome-to-arskville",
+        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/across-the-street",
+        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/image-11",
+        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/image-1"
     ],
     "links":
     [
         { 
-            "title": "GameJolt", 
-            "link": ""
-        },
-        {
-            "title": "YouTube",
-            "link": ""
+            "title": "ModDB", 
+            "link": "https://www.moddb.com/mods/hello-neighbor-into-the-mind"
         }
     ]
 }
