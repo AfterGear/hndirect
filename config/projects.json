@@ -6,10 +6,10 @@
         ],
         [
             "placeholders/hndeeptruth.json",
-            "placeholders/rbnevermore.json"
+            "rbnevermore.json"
         ],
         [
-            "placeholders/theodorelife.json",
+            "theodorelife.json",
             "hnlostindark.json"
         ],
         [
@@ -21,7 +21,7 @@
             "hnreckoning.json"
         ],
         [
-            "placeholders/hnintomind.json",
+            "hnintomind.json",
             "hnhiddenspirits.json"
         ]
     ]

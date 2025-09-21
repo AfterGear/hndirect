@@ -32,7 +32,7 @@
             const description = document.getElementById("description");
             const devname = document.getElementById("devname");
             const devpicture = document.getElementById("devpicture");
-            const gamejoltwidget = document.getElementById("gamejoltwidget");
+            // const gamejoltwidget = document.getElementById("gamejoltwidget");
             const projscreens = document.getElementById("projscreens");
             const devscreds = document.getElementById("devscreds");
             const addinfo = document.getElementById("addinfo");
@@ -47,7 +47,7 @@
                 description.innerHTML = data.description;
                 devname.innerHTML = data.developerdata.developerteamname;
                 devpicture.setAttribute("src", data.developerdata.developerlogo);
-                gamejoltwidget.setAttribute("src", "https://widgets.gamejolt.com/package/v1?key=" + data.gamejoltwidgetkey);
+                // gamejoltwidget.setAttribute("src", "https://widgets.gamejolt.com/package/v1?key=" + data.gamejoltwidgetkey);
                 projscreens.setAttribute("src", data.screenshots[0]);
 
                 for (let i = 0; i < data.developerdata.credits.length; i++) {
@@ -100,9 +100,9 @@
                     <img id="projscreens" src="../../../sprites/HNDirectLogo.webp" alt="projscreen" onclick="toggleFullscreenScreenshots()">
                 </div>
             </div>
-            <div id="gamejoltdiv">
+            <!-- <div id="gamejoltdiv">
                 <iframe id="gamejoltwidget" src="https://widgets.gamejolt.com/package/v1?key=" frameborder="0" width="500px" height="245px"></iframe>
-            </div>
+            </div> -->
         </main>
         <section id="fullscreenscreens">
             <div id="fullscreenscreensbg" onclick="toggleFullscreenScreenshots()"></div>

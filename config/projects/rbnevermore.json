@@ -1,0 +1,31 @@
+{
+    "image": "hnnomore/hnnomore.webp",
+    "title": "Raven Brooks Nevermore",
+    "genre": "",
+    "description":  "Welcome to Raven Brooks Nevermore a Hello Neighbor 2 Fangame in which you play as Quentin a Journalist who came to Raven Brooks to discover what truly happened here. What happened to the missing kids? And what is going on with the creepy neighbor? The game will mostly play out like Hello Neighbor 2 but it will not be as linear. The World in Raven Brooks Nevermore is around 2 times the size of the Hello Neighbor 2 Map in which you will be able to explore 2 sides of Raven Brooks:\n\n- Happy and alive in which people live their life as normal, where streets hide secrets just beneath the surface.\n- as well as sad and eerie in which people are scared to even go outside, where the secrets are hidden just behind the fog.\n\nDon't forget that a Demo is Coming in Late 2025.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "",
+    "developerdata":
+    {
+        "developerteamname": "Vexyy",
+        "developerlogo": "../../images/projects/hnnomore/HollowMind_Logo_Transparent.png",
+        "credits": [
+            "Vexyy"
+        ]
+    },
+    "screenshots": 
+    [
+        
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": ""
+        },
+        {
+            "title": "YouTube",
+            "link": ""
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "image": "hnintomind/hnintomind.png",
+    "title": "Hello Neighbor: Into the Mind",
+    "genre": "",
+    "description":  "Hello, Neighbor! - Into The Mind is a stealth thriller mod of Hello Neighbor that adapts the original story of the alphas, aiming to recreate the charm of the original style while presenting something new. Andrew Smith finds himself moving back into the secluded town of Arskville, Missouri, only to discover that his next-door neighbor is up to something shady, vowing to break inside to discover his secret.",
+    "windowtype": 2,
+    "gamejoltwidgetkey": "",
+    "developerdata":
+    {
+        "developerteamname": "",
+        "developerlogo": "",
+        "credits": [
+            "Cryxton",
+            "Oswald001",
+            "RandomPerson189"
+        ]
+    },
+    "screenshots": 
+    [
+        
+    ],
+    "links":
+    [
+        { 
+            "title": "GameJolt", 
+            "link": ""
+        },
+        {
+            "title": "YouTube",
+            "link": ""
+        }
+    ]
+}
