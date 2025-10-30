@@ -3,6 +3,11 @@
     <head>
         <style>@import url("fanprojects.css");</style>
         <script>
+
+            function thiscanbeyoursbtn() {
+                window.open("./thiscanbeyours.html", "pagewindow");
+            }
+
             function createProjectWindow(data, dataFile, container) {
                 
                 // Main Div for contents
@@ -33,7 +38,7 @@
                 data.projects.forEach((projects, index) => {
                     const con = document.createElement("div");
                     con.classList.add("projectwindow");
-                    document.getElementById("grid").appendChild(con);
+                    document.getElementById("grid").insertBefore(con, document.getElementById("grid").firstChild)
                     projects.forEach((project, index) => {
                         fetch('../config/projects/' + project).then(response => response.json())
                         .then(projdata => createProjectWindow(projdata, project, con))
@@ -55,6 +60,17 @@
             <img id="fanprojimgbesidecofeeimg" src="../images/CoffeIcon.png">
         </div>
         <hr id="overtablehr" color="black" size="6">
-        <div id="grid"></div>
+        <div id="grid">
+            <div class="projectwindow">
+                <div class="projectwindowelements" onclick="thiscanbeyoursbtn()">
+                    <img alt="THIS_CAN_BE_YOURS">
+                    <p>THIS_CAN_BE_YOURS</p>
+                </div>
+                <div class="projectwindowelements" onclick="thiscanbeyoursbtn()">
+                    <img alt="THIS_CAN_BE_YOURS">
+                    <p>THIS_CAN_BE_YOURS</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
