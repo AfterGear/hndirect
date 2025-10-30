@@ -5,16 +5,12 @@
             "dbn.json"
         ],
         [
-            "placeholders/hndeeptruth.json",
+            "tlstop.json",
             "rbnevermore.json"
         ],
         [
             "theodorelife.json",
             "hnlostindark.json"
-        ],
-        [
-            "tlstop.json",
-            "hnalt.json"
         ],
         [
             "hnraven.json",
