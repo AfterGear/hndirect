@@ -15,7 +15,7 @@
     "developerdata":
     {
         "developerteamname": "",
-        "developerlogo": "",
+        "developerlogo": "../images/projects/hnintomind/hnintomind.png",
         "credits": [
             "Cryxton",
             "Oswald001",
@@ -24,11 +24,9 @@
     },
     "screenshots": 
     [
-        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/promotional-image",
-        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/welcome-to-arskville",
-        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/across-the-street",
-        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/image-11",
-        "https://www.moddb.com/mods/hello-neighbor-into-the-mind/images/image-1"
+        "../images/projects/hnintomind/ITM_1.png",
+        "../images/projects/hnintomind/ITM_2.png",
+        "../images/projects/hnintomind/ITM_3.png"
     ],
     "links":
     [
