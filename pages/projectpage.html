@@ -38,6 +38,12 @@
             const addinfo = document.getElementById("addinfo");
             const fullscreen_screen = document.getElementById("fullscreen_screen");
 
+            const devstagelabel = document.getElementById("devstagelabel");
+            const enginelabel = document.getElementById("enginelabel");
+            const publishdatelabel = document.getElementById("publishdatelabel");
+            const ageimg1 = document.getElementById("ageimg1");
+            const ageimg2 = document.getElementById("ageimg2");
+
             const params = new URLSearchParams(document.URL);
             const datafile = params.values().next().value;
 
@@ -49,6 +55,14 @@
                 devpicture.setAttribute("src", data.developerdata.developerlogo);
                 // gamejoltwidget.setAttribute("src", "https://widgets.gamejolt.com/package/v1?key=" + data.gamejoltwidgetkey);
                 projscreens.setAttribute("src", data.screenshots[0]);
+
+                devstagelabel.innerHTML = `Development Stage: ${data.gameinfo.devstage}`;
+                enginelabel.innerHTML = `Engine/Language: ${data.gameinfo.engine}`;
+                publishdatelabel.innerHTML = `Published On: ${data.gameinfo.publishdate}`;
+
+                ageimg1.setAttribute("src", `../images/${data.gameinfo.maturity}1.png`);
+                ageimg2.setAttribute("src", `../images/${data.gameinfo.maturity}2.png`);
+
 
                 for (let i = 0; i < data.developerdata.credits.length; i++) {
                     const p = document.createElement("p");
@@ -77,28 +91,42 @@
         <main>
             <div id="top">
                 <div>
-                    <div id="titlediv">
-                        <div>
-                            <p id="title">Project title</p>
-                            <p id="description">Project description</p>
-                        </div>
-                        <div id="devsect">
-                            <img id="devpicture" src="../../../sprites/discord-alt.webp" alt="dev_picture">
-                            <p id="devname">Devs team name</p>
-                        </div>
+                    <div id="screenshotdiv">
+                        <img id="projscreens" src="../../../sprites/HNDirectLogo.webp" alt="projscreen" onclick="toggleFullscreenScreenshots()">
                     </div>
-                    <div id="creds">
-                        <div id="devscreds">
-                            <p style="padding-bottom: 10px; font-size: 24px;">Dev team:</p>
+                    <span id="gamedetailsspan">
+                        <div id="titlediv">
+                            <div>
+                                <p id="title">Project title</p>
+                                <p id="description">Project description</p>
+                            </div>
+                            <div id="devsect">
+                                <img id="devpicture" src="../../../sprites/discord-alt.webp" alt="dev_picture">
+                                <p id="devname">Devs team name</p>
+                            </div>
                         </div>
-                        <div id="addinfo">
-                            <p style="padding-top: 20px; padding-bottom: 10px; font-size: 24px;">Links: </p>
+                        <div id="creds">
+                            <span id="infospan">
+                                <p id="devstagelabel">Development stage: devlog</p>
+                                <p id="enginelabel">Engine/Language: Unreal Engine</p>
+                                <p id="publishdatelabel">Published on: September 13, 2024</p><br>
+                                <span id="ageimg">
+                                    <img id="ageimg1" src="../images/allages1.png"><br>
+                                    <img id="ageimg2" src="../images/allages2.png">
+                                </span>
+                            </span>
+                            <span>
+                                <div id="devscreds">
+                                    <p style="padding-bottom: 10px; font-size: 1.5vw;">Dev team:</p>
+                                </div>
+                                <div id="addinfo">
+                                    <p style="padding-top: 20px; padding-bottom: 10px; font-size: 1.5vw;">Links: </p>
+                                </div>
+                            </span>
                         </div>
-                    </div>
+                    </span>
                 </div>
-                <div id="screenshotdiv">
-                    <img id="projscreens" src="../../../sprites/HNDirectLogo.webp" alt="projscreen" onclick="toggleFullscreenScreenshots()">
-                </div>
+
             </div>
             <!-- <div id="gamejoltdiv">
                 <iframe id="gamejoltwidget" src="https://widgets.gamejolt.com/package/v1?key=" frameborder="0" width="500px" height="245px"></iframe>

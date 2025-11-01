@@ -1,10 +1,17 @@
 {
     "image": "tlstop/tlstop.webp",
-    "title": "The Last Stop",
+    "title": "Guest Secrets",
     "genre": "",
     "description":  "You wanted to leave Raven Brooks by bus, but the routes were cancelled because of storm. You need to find other way to leave.",
     "windowtype": 2,
     "gamejoltwidgetkey": "",
+    "gameinfo":
+    {
+        "devstage": "Early Access",
+        "engine": "Roblox",
+        "publishdate": "September 30, 2024",
+        "maturity": "teen"
+    },
     "developerdata":
     {
         "developerteamname": "Modfluff",
@@ -22,7 +29,7 @@
     [
         { 
             "title": "Roblox", 
-            "link": "https://www.roblox.com/games/77710060351332/Guest-Secrets-Alpha-2-Hello-Neighbor-Fan-Game"
+            "link": "https://www.roblox.com/games/100526618500295/Guest-Secrets-Playtest"
         },
         { 
             "title": "YouTube", 

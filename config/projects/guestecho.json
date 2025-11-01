@@ -5,6 +5,13 @@
     "description":  "Hello Guest: Echoes is a fan-made prequel to the stealth puzzle game, Hello Guest. This game aims to tell a new tale that resides deep in the forest rather than the streets of Raven Brooks. It will shed light on mysteries surrounding. You, Quentin, are investigating the missing people of Crow Haven, a small forest town tucked into the mountains outside Raven Brooks.",
     "windowtype": 2,
     "gamejoltwidgetkey": "",
+    "gameinfo":
+    {
+        "devstage": "Devlog",
+        "engine": "Unreal Engine",
+        "publishdate": "December 5, 2022",
+        "maturity": "teen"
+    },
     "developerdata":
     {
         "developerteamname": "Fuzz Fuzz Pink Sheep",

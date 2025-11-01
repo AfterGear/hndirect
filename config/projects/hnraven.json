@@ -5,6 +5,13 @@
     "description":  "Hello Neighbor 2: The Missing Raven brings the lost, unreleased version of the real game stage, \"Alpha 2\", to life in its style. In this game you play as Quentin, a journalist investigating a series of missing persons cases in the open world of Raven Brooks. Explore the mysterious town as you interact with a host of different characters and take on the infamous Mr. Peterson, a suspect who has been hiding from police. Everyone has their own secrets and it's your job to figure out how everything connects.",
     "windowtype": 2,
     "gamejoltwidgetkey": "",
+    "gameinfo":
+    {
+        "devstage": "Devlog",
+        "engine": "Unreal Engine",
+        "publishdate": "September 13, 2024",
+        "maturity": "allages"
+    },
     "developerdata":
     {
         "developerteamname": "Blockified",

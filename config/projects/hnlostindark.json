@@ -5,6 +5,13 @@
     "description":  "Hello Neighbor: Lost In The Dark is a Hello Neighbor fan game that tries to improve the well-known Hello Neighbor game.",
     "windowtype": 2,
     "gamejoltwidgetkey": "",
+    "gameinfo":
+    {
+        "devstage": "Devlog",
+        "engine": "Unreal Engine",
+        "publishdate": "July 28, 2023",
+        "maturity": "teen"
+    },
     "developerdata":
     {
         "developerteamname": "DenixMar",

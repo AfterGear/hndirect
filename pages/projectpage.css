@@ -12,23 +12,23 @@ body {
 #titlediv {
     display: grid;
     grid-auto-flow: column;
-    width: 700px;
+    width: 50vw;
     height: max-content;
     border-bottom: 2px solid white;
     border-right: 2px solid white;  
 }
 
 #title {
-    width: 500px;
+    width: 30vw;
     margin-left: 20px;
-    font-size: 24px;
+    font-size: 2.1vw;
     font-weight: 600;
 }
 
 #description {
     color: darkgray;
-    font-size: 12px;
-    width: 500px;
+    font-size: 1vw;
+    width: 49vw;
     margin-left: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -36,6 +36,8 @@ body {
 }
 
 #devsect {
+    position: absolute;
+    left: 35vw;
     margin-top: 20px;
     margin-right: 20px;
     align-items: center;
@@ -45,13 +47,20 @@ body {
 
 #devpicture {
     border-radius: 50%;
-    width: 128px;
-    height: 128px;
+    width: 7.5vw;
+    height: 7.5vw;
+}
+
+#devname {
+    font-size: 0.8vw;
 }
 
 #screenshotdiv {
-    min-width: 25vw;
-    padding-right: 10vw;
+
+    width: 50vw;
+    margin: auto;
+    /*min-width: 25vw;
+    padding-right: 10vw;*/
 }
 
 #projscreens {
@@ -65,11 +74,19 @@ body {
     height: max-content;
 }
 
+#gamedetailsspan {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+
 #creds {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 700px;
+    width: 50vw;
     border-bottom: 2px solid white;
     border-right: 2px solid white;
 }
@@ -84,8 +101,24 @@ body {
     padding-top: 10px;
 }
 
+#devscreds p {
+    font-size: 1vw;
+}
+
+#infospan p {
+    font-size: 1vw;
+}
+
 #addinfo {
     margin-bottom: 15px;
+}
+
+#ageimg img {
+    width: 5vw;
+}
+
+#addinfo {
+    font-size: 1vw;
 }
 
 a:link {

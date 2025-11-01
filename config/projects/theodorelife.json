@@ -5,6 +5,13 @@
     "description":  "",
     "windowtype": 2,
     "gamejoltwidgetkey": "",
+    "gameinfo":
+    {
+        "devstage": "Devlog",
+        "engine": "Movie",
+        "publishdate": "?",
+        "maturity": "mature"
+    },
     "developerdata":
     {
         "developerteamname": "",
