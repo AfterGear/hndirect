@@ -15,15 +15,17 @@
     "developerdata":
     {
         "developerteamname": "Modfluff",
-        "developerlogo": "../images/projects/tlstop/pfp.png",
+        "developerlogo": "https://tr.rbxcdn.com/180DAY-449d82442bbcc5ec7bfc3e5b7963b426/150/150/Image/Webp/noFilter",
         "credits": [
             "Modfluff"
         ]
     },
     "screenshots": 
     [
-        "https://tr.rbxcdn.com/180DAY-1505ff681a4e514c2a2fb981a8dbdf5a/768/432/Image/Webp/noFilter",
-        "https://tr.rbxcdn.com/180DAY-dbaa77e731455914ab80a02d89af1bc6/768/432/Image/Webp/noFilter"
+        "../images/projects/tlstop/gs_1.png",
+        "../images/projects/tlstop/gs_2.png",
+        "../images/projects/tlstop/gs_3.png",
+        "../images/projects/tlstop/gs_4.png"
     ],
     "links":
     [
