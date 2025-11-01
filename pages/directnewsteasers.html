@@ -39,7 +39,7 @@
                     case "img":
                         const img = document.createElement("img");
                         img.classList.add("maincontent");
-                        img.setAttribute("src", "../../sprites/news/" + data.contentimg);
+                        img.setAttribute("src", data.contentimg);
                         img.setAttribute("alt", data.contentimg);
                         newscontent.appendChild(img);
                         break;
@@ -75,14 +75,14 @@
             }
         </script>
         <div class="newsshelve">
-            <img id="newschangebtn1" src="../../sprites/Logo_Arrow2.webp" alt=">" onclick="back()" style="transform:rotate(180deg);">
+            <img id="newschangebtn1" src="../images/Logo_Arrow2.webp" alt=">" onclick="back()" style="transform:rotate(180deg);">
             <div id="content">
                 <p id="counter">0/0</p>
                 <p id="title">Title</p>
                 <div id="newscontent"></div>
                 <p id="description">Description</p>
             </div>
-            <img id="newschangebtn2" src="../../sprites/Logo_Arrow2.webp" onclick="next()" alt=">">
+            <img id="newschangebtn2" src="../images/Logo_Arrow2.webp" onclick="next()" alt=">">
         </div>
     </body>
 </html>
