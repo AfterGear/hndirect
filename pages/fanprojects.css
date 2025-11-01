@@ -95,3 +95,18 @@ td + td {
     width: 8.9vw;
     height: auto;
 }
+
+#credits {
+    position: absolute;
+    display: grid;
+
+    font-size: 2vh;
+    transform: translateY(100vh);
+
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 70px;
+    
+}
