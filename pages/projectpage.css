@@ -28,7 +28,7 @@ body {
 #description {
     color: darkgray;
     font-size: 1vw;
-    width: 49vw;
+    width: 36vw;
     margin-left: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -37,7 +37,8 @@ body {
 
 #devsect {
     position: absolute;
-    left: 35vw;
+    transform: translateY(7vh);
+    left: 40vw;
     margin-top: 20px;
     margin-right: 20px;
     align-items: center;
