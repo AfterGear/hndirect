@@ -37,7 +37,7 @@ body {
 
 #devsect {
     position: absolute;
-    transform: translateY(7vh);
+    transform: translateY(1vh);
     left: 40vw;
     margin-top: 20px;
     margin-right: 20px;

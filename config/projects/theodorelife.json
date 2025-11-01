@@ -2,7 +2,7 @@
     "image": "theodorlife/theodorlife.png",
     "title": "A Day in the Life of Theodore",
     "genre": "",
-    "description":  "",
+    "description": "Hello Neighbor fan film, that takes place in 1964, to 1968 during the times of Hello Neighbor Alpha 2. In this WIP project, Mr. Peterson has been creeping everyone out lately. Some say that he's been speaking Latin from time to time. A casual day in Theodore's life seems mostly nice and peaceful... for now.",
     "windowtype": 2,
     "gamejoltwidgetkey": "",
     "gameinfo":
@@ -14,25 +14,24 @@
     },
     "developerdata":
     {
-        "developerteamname": "",
-        "developerlogo": "",
+        "developerteamname": "Folié",
+        "developerlogo": "../images/projects/theodorlife/theodorlife.png",
         "credits": [
-            ""
+            "Folié"
         ]
     },
     "screenshots": 
     [
-        
+        "../images/projects/theodorlife/theodorlife_1.png",
+        "../images/projects/theodorlife/theodorlife_2.png",
+        "../images/projects/theodorlife/theodorlife_3.png",
+        "../images/projects/theodorlife/theodorlife_4.png"
     ],
     "links":
     [
-        { 
-            "title": "GameJolt", 
-            "link": ""
-        },
         {
             "title": "YouTube",
-            "link": ""
+            "link": "https://youtu.be/2etOfpub2kE"
         }
     ]
 }
