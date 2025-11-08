@@ -65,7 +65,7 @@
             }
 
             window.onload = async function() {
-                const response = await fetch('../../config/directnewsteasers.json');
+                const response = await fetch('../config/directnewsteasers.json');
                 const data = await response.json();
                 const fetchPromises = data.news.map(news => 
                     fetch('../config/directnewsteasers/' + news).then(response => response.json())
