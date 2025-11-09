@@ -14,8 +14,8 @@
     },
     "developerdata":
     {
-        "developerteamname": "Phantom Studio",
-        "developerlogo": "https://m.gjcdn.net/user-avatar/200/8065485-uns8yvj6-v4.webp",
+        "developerteamname": "Shadow Visitor",
+        "developerlogo": "../images/projects/hnkidnap/pfp.png",
         "credits": [
             "TSB",
             "FORRT9513",
@@ -24,13 +24,14 @@
     },
     "screenshots": 
     [
-        "https://m.gjcdn.net/game-screenshot/600/35617918-hdu7vwm7-v4.webp",
-        "https://m.gjcdn.net/game-screenshot/600/35617919-jw2gtyv8-v4.webp",
-        "https://m.gjcdn.net/game-screenshot/600/35617920-m6xeizwa-v4.webp",
-        "https://m.gjcdn.net/game-screenshot/600/35617921-4ye9gyqm-v4.webp",
-        "https://m.gjcdn.net/game-screenshot/600/35617935-guvfxrfx-v4.webp",
-        "https://m.gjcdn.net/game-screenshot/600/35617967-ifbw2hzq-v4.webp",
-        "https://m.gjcdn.net/game-screenshot/600/35617998-behmfy8h-v4.webp"
+        "../images/projects/hnkidnap/screen1.png",
+        "../images/projects/hnkidnap/screen2.png",
+        "../images/projects/hnkidnap/screen3.png",
+        "../images/projects/hnkidnap/screen4.png",
+        "../images/projects/hnkidnap/screen5.png",
+        "../images/projects/hnkidnap/screen6.png",
+        "../images/projects/hnkidnap/screen7.png",
+        "../images/projects/hnkidnap/screen8.png"
     ],
     "links":
     [
