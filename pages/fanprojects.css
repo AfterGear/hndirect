@@ -101,7 +101,7 @@ td + td {
     display: grid;
 
     font-size: 2vh;
-    transform: translateY(100vh);
+    transform: translateY(130vh);
 
     background-color: rgba(0, 0, 0, 0.699);
     color: white;

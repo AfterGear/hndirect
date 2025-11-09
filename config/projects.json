@@ -1,6 +1,9 @@
 {
     "projects": [
         [
+            "hnkidnap.json"
+        ],
+        [
             "guestecho.json",
             "dbn.json"
         ],

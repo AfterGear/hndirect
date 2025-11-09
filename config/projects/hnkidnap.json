@@ -2,12 +2,19 @@
     "image": "hnkidnap/hnkidnap.webp",
     "title": "Hello Neighbor 2: The Mysterious Kidnappings",
     "genre": "horror, puzzle, strategy, action, adventure",
-    "description":  "Hello Neighbor 2: The Mysterious Kidnappings is a reimagined version of the E3, Alpha 2 And HN2, Following the Same Gameplay Loop, You Can Expect In Those Games. Play as an investigative journalist that is in a sketchy cult, Where your Investigation Board and Your items are your dearest Friends, The AI-driven characters are Powered With a Self Learning AI That Learns From your past mistakes and adapts to them",
+    "description":  "Hello Neighbor 2: The Mysterious Kidnappings is an alternative universe of the game Hello Neighbor 2 that is trying to improve upon the already existing concept of it. Play as an investigative journalist that is investigating a case of an abusive father that digs much deeper then expected, where your tools and distractions are your keys to success and stealth is required to progress and uncover the secrets of your neighbors. In this world of secrets and nightmares, you'll need to use every feature to survive. If you think something is possible, then it most likely is. It's a project that keeps evolving and changing, which gives each build a very different experience, so you can find your preference!",
     "windowtype": 2,
     "gamejoltwidgetkey": "",
+    "gameinfo":
+    {
+        "devstage": "Early Access",
+        "engine": "Unreal Engine",
+        "publishdate": "February 28, 2024",
+        "maturity": "allages"
+    },
     "developerdata":
     {
-        "developerteamname": "PhantomYT",
+        "developerteamname": "Phantom Studio",
         "developerlogo": "https://m.gjcdn.net/user-avatar/200/8065485-uns8yvj6-v4.webp",
         "credits": [
             "TSB",
